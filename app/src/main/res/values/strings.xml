@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Filemgmt2</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">Add item</string>
+    <string name="poptext">Enter What You Want</string>
+    <string name="phint">Anything</string>
+    <string name="phint2">Ask For More</string>
+    <string name="btext">Now Save It </string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="sayit">Whats your wish ?</string>
+    <string name="sayy">One more??</string>
+    <string name="date">Date</string>
+    <string name="sure_text">Yes I\'m,sure</string>
+    <string name="no">Noo</string>
+    <string name="yes">YESs</string>
+</resources>

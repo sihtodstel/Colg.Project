@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.DetailAct">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/wishdet"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="WISHES!!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/secwishdet"
+                android:layout_below="@id/wishdet"
+                android:textStyle="italic"
+                android:text="Second Wish!! ;)"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/datedet"
+                android:layout_below="@id/secwishdet"
+                android:text="Date"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:layout_alignBottom="@id/datedet">
+
+                <Button
+                    android:id="@+id/editwishdet"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="30dp"
+                    android:background="@android:drawable/ic_menu_edit"
+                    />
+                <Button
+                    android:id="@+id/deletewishdet"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@android:drawable/ic_delete"
+                    />
+            </TableRow>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

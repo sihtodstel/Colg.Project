@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layoutid">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/popuptext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="false"
+            android:text="@string/poptext"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+        <EditText
+
+            android:id="@+id/firsthint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/popuptext"
+            android:hint="@string/phint"
+            android:padding="5dp"
+            android:layout_margin="15dp"/>
+        <EditText
+            android:id="@+id/secondhint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firsthint"
+            android:hint="@string/phint2"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_margin="15dp"
+            />
+
+        <Button
+            android:id="@+id/savebut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/secondhint"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorAccent"
+            android:padding="10dp"
+            android:text="@string/btext" />
+
+
+
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
